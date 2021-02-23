@@ -13,4 +13,5 @@ jobs:
      - uses: actions/checkout@v2
      - uses: joergbrech/moxunit-action@v1
        with:
-         tests: test.m
+         test_directory: .
+         src_directory: .
